@@ -12,6 +12,7 @@ body {
   justify-content: center;
   border-radius: 0.6em;
   margin-bottom: 10em;
+  box-shadow: gray 4px 4px 10px 1px;
 }
 
 #card img {
@@ -33,4 +34,19 @@ div .description {
   text-align: center;
   margin: 0 1em 1.5em;
   color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  font-size: 1rem;
+  font-family: Outfit, sans-serif;
+  font-weight: 700;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: black;
+}
+
+.attribution a:hover {
+  color: yellow;
 }
