@@ -1,0 +1,36 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+#card {
+  margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: white;
+  padding: 1em;
+  justify-content: center;
+  border-radius: 0.6em;
+  margin-bottom: 10em;
+}
+
+#card img {
+  border-radius: 0.6em;
+}
+
+.paragraph-title {
+  font-family: Outfit, sans-serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.3rem;
+  margin: 1em 0.8em;
+}
+
+div .description {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: Outfit, sans-serif;
+  text-align: center;
+  margin: 0 1em 1.5em;
+  color: hsl(220, 15%, 55%);
+}
