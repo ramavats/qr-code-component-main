@@ -37,7 +37,7 @@ div .description {
 }
 
 .attribution {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-family: Outfit, sans-serif;
   font-weight: 700;
 }
@@ -48,5 +48,12 @@ div .description {
 }
 
 .attribution a:hover {
-  color: yellow;
+  color: #009eff;
+}
+
+.attribution-name {
+  padding: 0.2rem 0.5rem;
+  background-color: #009eff;
+  color: white;
+  border-radius: 0.3em;
 }
